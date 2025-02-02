@@ -14,7 +14,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: 'public', // Changed from 'dist' to 'public'
+    outDir: 'dist', // Changed back to 'dist'
     sourcemap: true,
   },
 })
